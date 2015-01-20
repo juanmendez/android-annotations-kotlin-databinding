@@ -1,5 +1,5 @@
 # android-annotation-studio-demo
-This is a small proof demo using JayWay's approach to run Android Annotations in Android Studio 1.0.X
+This is a small proof demo using <a href="http://www.jayway.com/2014/12/19/androidannotations-setup-android-studio" target="_blank">JayWay's approach</a> to run Android Annotations in Android Studio 1.0.X
 For comparison I made two branches one having the original project and then the master one using Android Annotations.
 
 1. In Android Studio import this project
