@@ -5,7 +5,7 @@ Now it has been turned around to show how to use it with Kotlin along with Datab
 
 I made this new branch because like others I also had some issues to make this work around.
 
-This demo is using `kotlinOpen` so as you remember Android Components makes subclasses for your
+This demo is using `kotlinOpen` so as you remember Android Annotations makes subclasses of your
 activities and fragments, so by default to inherit you need to imply `open` in your classes for that
 to work. So that's a way to save you from doing it every time. You don't have to use it.
 
