@@ -9,14 +9,13 @@ import org.androidannotations.annotations.EActivity
 
 @DataBound
 @EActivity(R.layout.activity_main)
-class MainActivity : AppCompatActivity() {
+class MainActivity:AppCompatActivity() {
 
     @BindingObject
-    lateinit var binding :ActivityMainBinding
+    lateinit var binding:ActivityMainBinding
 
     @AfterViews
     fun afterViews() {
-        val vm = VM()
-        binding.vm = vm
+        binding.vm = VM()
     }
 }
