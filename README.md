@@ -1,16 +1,15 @@
-# android-annotation-studio-demo
-This is a small proof demo using <a href="http://www.jayway.com/2014/12/19/androidannotations-setup-android-studio" target="_blank">JayWay's approach</a> to run Android Annotations in Android Studio 1.0.X
-For comparison I made two branches one having the original project and then the master one using Android Annotations.
+# Android Annotations (Kotlin-Databinding) demo
 
-1. In Android Studio import this project
-2. Go to "Build" and click "Rebuild Project"
-3. Debug it!
+Three years ago this repository was made to show how to use Android Annotations with Android Studio.
+Now it has been turned around to show how to use it with Kotlin along with Databinding.
 
-All the changes that took place are here
-<ol>
-<li>download the source code from https://github.com/excilys/androidannotations/wiki/Download</li>
-<li>copy the jar file ( currently androidannotations-api-3.2.jar ) and at the root of your project create a libs folder. paste the jar file there.</li>
-<li>Modify the gradle's app file. see the article ( http://www.jayway.com/2014/12/19/androidannotations-setup-android-studio )</li>
-<li>As usual in Android Annotations modify your manifest activity declarations having underscore as suffix.</li>
-<li>Go to "Build" and click "Rebuild Project"</li>
-</ol>
+I made this new branch because like others I also had some issues to make this work around.
+
+This demo is using `kotlinOpen` so as you remember Android Components makes subclasses for your
+activities and fragments, so by default to inherit you need to imply `open` in your classes for that
+to work. So that's a way to save you from doing it every time. You don't have to use it.
+
+I also made this demo flavors, and debug suffix friendly.
+
+It's been more than three years since I discovered [Android-Annotations](http://androidannotations.org/) and is one of my favorite
+Android libraries. I am so grateful for those who have contributed and keep it running.
