@@ -46,7 +46,7 @@ allOpen {
 
 // If you have different applicationIds for buildTypes or productFlavors
 kapt {
-    generateStubs = true
+    correctErrorTypes = true
     arguments {
         arg("resourcePackageName", "org.androidannotations.gradle")  //AndroidAnnotations fix
         arg("resourcePackageName", android.defaultConfig.applicationId) //ApplicationId fix
@@ -61,7 +61,6 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    annotationProcessor "org.androidannotations:androidannotations:${aaVersion}"
     implementation "org.androidannotations:androidannotations-api:${aaVersion}"
     kapt "org.androidannotations:androidannotations:${aaVersion}"
     kapt 'com.android.databinding:compiler:3.0.1'

@@ -10,6 +10,7 @@ class VM : BaseObservable(){
 
     private var msg:String = ""
 
+    //trying `@Bindable:get var message = ""` shows as read-only
     var message: String
     @Bindable get()= msg
     set(value) {
