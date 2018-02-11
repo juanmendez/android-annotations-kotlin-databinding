@@ -13,3 +13,11 @@ I also made this demo flavors, and debug suffix friendly.
 
 It's been more than three years since I discovered [Android-Annotations](http://androidannotations.org/) and is one of my favorite
 Android libraries. I am so grateful for those who have contributed and keep it running.
+
+## Running into compiling errors when using Dependency injection?
+Try:
+
+`./gradlew clean`  
+`./gradlew build --stacktrace`
+
+You can read from your terminal in more detail what's wrong.
